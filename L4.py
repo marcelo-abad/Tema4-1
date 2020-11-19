@@ -33,7 +33,7 @@ P = [np.mean(X_t[:,i]) for i in range(len(t))]
 plt.plot(t, P, lw=6)
 
 # Graficar el resultado teórico del valor esperado
-E = 0*t
+E = 0/2 * np.cos(2*t)
 plt.plot(t, E, '-.', lw=4)
 
 # Mostrar las realizaciones, y su promedio calculado y teórico

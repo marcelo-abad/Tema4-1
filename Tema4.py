@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 # Variables aleatorias X y Y
 vaX = stats.norm(0, np.sqrt(0.36))
-vaY = stats.uniform(-1,1)
+vaY = stats.uniform(0,np.sqrt(0.36))
 
 # Creación del vector de tiempo
 T = 100			# número de elementos

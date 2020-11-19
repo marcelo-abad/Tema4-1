@@ -70,4 +70,4 @@ plt.legend()
 plt.show()
 
 
-#Se utilizó un w0 = 2, varianza = 0.6. El valor esperado 
+#Se utilizó un w0 = 2, varianza = 0.6. El valor esperado es cero, de acuerdo a lo visto en las presentaciones del tema 4. 
